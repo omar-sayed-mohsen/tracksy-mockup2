@@ -1,0 +1,67 @@
+# Tests
+
+## Test 1 - Luminous dashboard loads [sanity]
+Viewport: desktop
+Description: Verifies the full Luminous Workspace dashboard loads with fixed-screen layout.
+
+Steps:
+1. Navigate to the app
+2. Wait for page to fully load
+3. Look at the dashboard and sidebar
+
+Expected: The page title says "Today is your luminous workspace.", the hero card includes "Luminous Workspace", the dashboard uses deep midnight violet glass styling, and the sidebar stays fixed while the main content scrolls.
+
+## Test 2 - Smooth optimized hover aura
+Viewport: desktop
+Description: Verifies the hover glow stays premium but no longer makes the dashboard feel slow.
+
+Steps:
+1. Navigate to the app
+2. Move the mouse over Add task, sidebar nav items, task rows, widgets, and dashboard cards
+3. Pause the mouse over a card for about one second
+
+Expected: A soft diffused violet aura follows with gentle natural lag, settles smoothly when paused, keeps a calm organic feel, and hover response feels smooth without visible jank.
+
+## Test 3 - Create New Task modal opens
+Viewport: desktop
+Description: Verifies the glass task modal remains available.
+
+Steps:
+1. Navigate to the app
+2. Click "Add task"
+3. Look at the modal
+
+Expected: A glass "Create New Task" modal appears with Title, Category, Date, Duration, Notes optional, and an "Add gently" button.
+
+## Test 4 - Warning modals remain calm
+Viewport: desktop
+Description: Verifies form validation still uses the calm amber warning style.
+
+Steps:
+1. Navigate to the app
+2. Click "Add task"
+3. Click "Add gently" without entering a title
+
+Expected: A soft warning modal appears with "A small detail is missing" and recovery-focused copy, using warm amber styling rather than harsh red.
+
+## Test 5 - Theme and glass controls still work
+Viewport: desktop
+Description: Verifies theme switching and glass/solid mode still function.
+
+Steps:
+1. Navigate to the app
+2. Click "Nature" in Theme Studio
+3. Click "Glass effect: On"
+
+Expected: The workspace palette changes to Nature, and the glass toggle changes to "Solid widgets: On".
+
+## Test 6 - AI remains embedded only
+Viewport: desktop
+Description: Verifies there is no floating AI assistant.
+
+Steps:
+1. Navigate to the app
+2. Look at all viewport corners
+3. Find the AI card on the dashboard
+
+Expected: The AI appears as an "Embedded AI Coach" card and there is no floating AI icon, bubble, or assistant button.
